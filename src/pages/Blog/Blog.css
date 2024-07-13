@@ -1,0 +1,92 @@
+.instruction-blog :is(.section-title-blog, .section-text-blog) {
+  text-align: center;
+}
+
+.instruction-blog .section-title-blog {
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.instruction-list-blog {
+  display: grid;
+  gap: 30px;
+  margin-block-start: 50px;
+}
+.instruction-blog {
+  overflow: hidden;
+  padding: 100px 10px;
+}
+
+.instruction-blog .section-text-blog {
+  max-width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.instruction-list-blog {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.instruction-card-blog {
+  position: relative;
+}
+
+.instruction-card-blog {
+  text-align: center;
+}
+
+.instruction-card-blog .card-banner-blog {
+  transition: 0.8s ease-in-out;
+}
+
+.instruction-card-blog:hover .card-banner-blog {
+  transform: rotateY(1turn);
+}
+
+.instruction-card-blog .img {
+  margin-inline: auto;
+}
+
+.card-line-blog::after {
+    content: "";
+    width: 160px;
+    height: 12px;
+    background-image: url('../../assets/connect-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 50px;
+    right: -95px;
+  }
+
+.instruction-card-blog .card-subtitle-blog {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.instruction-card-blog .card-title-blog {
+  font-size: 30px;
+}
+
+.instruction-card-blog .card-text-blog {
+  padding: 10px;
+}
+
+@media (max-width: 900px){
+  .instruction-list-blog {
+  grid-template-columns: 1fr 1fr;
+}
+.card-line-blog::after{
+  display: none;
+}
+
+}
+
+@media (max-width: 786px){
+  .instruction-list-blog {
+  grid-template-columns: 1fr ;
+}
+}

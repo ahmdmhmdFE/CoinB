@@ -1,0 +1,52 @@
+.form-contact {
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.input-contact,
+.textErea-contact {
+  width: 45%;
+  height: 35px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.textErea-contact {
+  height: 70px;
+  padding: 10px;
+}
+
+.input-contact:focus,
+.textErea-contact:focus {
+  outline: none;
+}
+
+.btn-contact {
+  width: 30%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  background: #7927ff;
+}
+
+.btn-contact:hover {
+  background: #441393;
+}
